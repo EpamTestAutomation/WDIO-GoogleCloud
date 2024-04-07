@@ -5,7 +5,7 @@
   "private": "false",
   "type": "module",
   "scripts": {
-    "test": "wdio run src/config/wdio.conf.js"
+    "test": "wdio run src/configs/wdio.conf.js"
   },
   "devDependencies": {
     "@wdio/cli": "^8.35.1",

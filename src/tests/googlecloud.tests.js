@@ -200,9 +200,6 @@ describe('Create an estimate in Google Cloud Calculator', () => {
             await browser.switchWindow('https://cloud.google.com/products/calculator-legacy')
 
             //Find external iframes 
-            const outerFrames = await browser.$$('iframe')
-
-            //Find external iframes 
             await browser.switchToFrame(0)
 
             //Find internal iframes 
